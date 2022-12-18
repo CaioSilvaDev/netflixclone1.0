@@ -125,3 +125,37 @@ body {
     overflow: hidden;
 
 }
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    height: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5vw;
+    background: #181818;
+    border: none;
+    outline: none;
+    opacity: 0;
+
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    opacity: 1;
+}
+
+.prev-btn {
+    left: -2.5vw;
+}
+
+.next-btn {
+    left: -2.5vw;
+}
+
+.prev-btn img,
+.next-btn img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
