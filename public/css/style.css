@@ -78,6 +78,7 @@ body {
     height: 250px;
     margin-top: 40px;
     position: relative;
+
 }
 
 .movie-category {
@@ -95,6 +96,7 @@ body {
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
+    display: flex;
 
 }
 
